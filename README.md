@@ -46,4 +46,13 @@ in here I am split 20% data as a test and 80 for train.
 * In the image, each data point likely represents a handwritten digit (0-9). The location of each dot on the graph could correspond to two features used by the KNN model to identify the digit. For instance, the features might be the pixel intensity at position (0, 1) and (1, 1) in the image.
 * The KNN model would then classify new handwritten digits by finding the existing digits in the training data that are closest (most similar) to the new one based on the chosen features.
 
+## Predicting
 
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/174e9bc8-5f88-4737-987b-e0362477d1de)
+
+<br>
+
+* New digit arrives: When a new handwritten digit needs to be classified (represented by "Pixel 255" and "Pixel 1" on the left), the KNN model calculates the distance between this new digit and all the digits in the training set (represented by the points on the right).
+
+* Find k nearest neighbors: The model then selects a predefined number of closest neighbors, denoted by "k". In the absence of information about the image, it's assumed k is 3 here.
+* Majority vote wins: The model predicts the class (digit) that is most frequent among these k nearest neighbors. In the image, the 3 closest neighbors (based on an unknown distance metric) to the new digit are likely digits 3, 7, and 9. Since 7 appears most frequently among the 3 closest neighbors, the model predicts the new digit to be a "digit 7".
