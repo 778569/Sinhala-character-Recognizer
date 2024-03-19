@@ -38,7 +38,12 @@ in here I am split 20% data as a test and 80 for train.
 * In loan desbursement, banking institutes will predict whether the lone is safe or risky, in political science, classifying potential voters in two classes will vote or wont vote
 * KNN algorithm used for both classification and regression problems.KNN algorithm based on feature similarity approach.
 
+## Training
 
 
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/15543c02-523f-4642-8aab-10a0113a78dc)
+
+* In the image, each data point likely represents a handwritten digit (0-9). The location of each dot on the graph could correspond to two features used by the KNN model to identify the digit. For instance, the features might be the pixel intensity at position (0, 1) and (1, 1) in the image.
+* The KNN model would then classify new handwritten digits by finding the existing digits in the training data that are closest (most similar) to the new one based on the chosen features.
 
 
