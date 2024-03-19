@@ -56,3 +56,45 @@ in here I am split 20% data as a test and 80 for train.
 
 * Find k nearest neighbors: The model then selects a predefined number of closest neighbors, denoted by "k". In the absence of information about the image, it's assumed k is 3 here.
 * Majority vote wins: The model predicts the class (digit) that is most frequent among these k nearest neighbors. In the image, the 3 closest neighbors (based on an unknown distance metric) to the new digit are likely digits 3, 7, and 9. Since 7 appears most frequently among the 3 closest neighbors, the model predicts the new digit to be a "digit 7".
+
+## Measurements
+
+### How to Measure the Distance?
+<br>
+
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/92bc0003-f828-426d-927d-eaa8c4296f9d)
+
+
+### Euclidean Distance How to deal when there are more than 2 Features
+
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/0c5d61dc-a837-4278-bf63-e658fe154fc0)
+
+
+### Euclidean Disance Example
+
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/39ac949d-74e1-4d64-a44c-c5d8818e5f33)
+
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/9d14286d-2828-40b7-8e84-b886c52ada64)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
