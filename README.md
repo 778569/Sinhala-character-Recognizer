@@ -82,7 +82,9 @@ in here I am split 20% data as a test and 80 for train.
 
 
 
+## Result 
 
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/2e22ef6a-8a9b-4ef6-8c9a-1b7f041cdb29)
 
 
 
