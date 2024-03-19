@@ -20,5 +20,25 @@ in here I am split 20% data as a test and 80 for train.
 
 ## Train the KNN Algorithm
 
-
 ![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/3cb24a93-cdd3-4803-b3bb-210b200c6359)
+
+## Evaluating the Algorithm
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/45349352-d590-4587-b0dd-c9db2993b367)
+
+## Read Time Predictions
+
+![image](https://github.com/778569/Sinhala-character-Recognizer/assets/52319671/da1d1bd8-3bd1-4f79-ab17-1a4399418955)
+
+## K Nearest Neighbor Algorithm (Classifier)
+
+* K Nearest Neighbor(KNN) is very simple, easy to understand, versatile and one of topmost machine recognition algorithms.
+* KNN used in the variety of applications such as finance, healthcare, political science, handwriting detection, image recognition and video recognition.
+* In credit ratings, financial institutes will predict the credit rating of customers.
+* In loan desbursement, banking institutes will predict whether the lone is safe or risky, in political science, classifying potential voters in two classes will vote or wont vote
+* KNN algorithm used for both classification and regression problems.KNN algorithm based on feature similarity approach.
+
+
+
+
+
